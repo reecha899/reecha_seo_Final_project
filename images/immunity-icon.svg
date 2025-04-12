@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M32 4L56 16V28C56 41.2548 46.2548 51 33 51C19.7452 51 10 41.2548 10 28V16L32 4Z" fill="#2B6CB0" fill-opacity="0.1"/>
+    <path d="M32 4L56 16V28C56 41.2548 46.2548 51 33 51C19.7452 51 10 41.2548 10 28V16L32 4Z" stroke="#2B6CB0" stroke-width="2"/>
+    <path d="M32 12L48 20V28C48 35.732 41.732 42 34 42C26.268 42 20 35.732 20 28V20L32 12Z" fill="#2B6CB0" fill-opacity="0.2"/>
+    <path d="M32 12L48 20V28C48 35.732 41.732 42 34 42C26.268 42 20 35.732 20 28V20L32 12Z" stroke="#2B6CB0" stroke-width="2"/>
+    <path d="M32 20L40 24V28C40 31.3137 37.3137 34 34 34C30.6863 34 28 31.3137 28 28V24L32 20Z" fill="#2B6CB0"/>
+    <path d="M32 20L40 24V28C40 31.3137 37.3137 34 34 34C30.6863 34 28 31.3137 28 28V24L32 20Z" stroke="#2B6CB0" stroke-width="2"/>
+</svg> 

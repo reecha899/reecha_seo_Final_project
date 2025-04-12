@@ -1,0 +1,65 @@
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="brand-section">
+            <img src="images/LARQ Logo.png" alt="LARQ Logo" class="brand-logo">
+            <p class="brand-description">Innovative technology for sustainable, clean drinking water.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/livelarq" target="_blank" rel="noopener" class="social-link">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/livelarq" target="_blank" rel="noopener" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/livelarq" target="_blank" rel="noopener" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/livelarq" target="_blank" rel="noopener" class="social-link">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="quick-links">
+            <h3>Quick Links <i class="fas fa-list"></i></h3>
+            <ul class="footer-links">
+                <li><a href="product.html"><i class="fas fa-box"></i> Products</a></li>
+                <li><a href="technology.html"><i class="fas fa-microchip"></i> Technology</a></li>
+                <li><a href="our-story.html"><i class="fas fa-book"></i> Our Story</a></li>
+                <li><a href="hydration-health-benefits.html"><i class="fas fa-heart"></i> Health Benefits</a></li>
+            </ul>
+        </div>
+
+        <div class="stay-connected">
+            <h3>Stay Connected <i class="fas fa-paper-plane"></i></h3>
+            <form id="newsletter-form" class="newsletter-form">
+                <div class="input-group">
+                    <input type="email" id="newsletter-email" placeholder="Enter your email" required>
+                    <button type="submit" class="subscribe-btn">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="footer-info">
+            <p>&copy; <span id="current-year"></span> LARQ. All rights reserved.</p>
+            <div class="footer-legal">
+                <a href="/privacy">Privacy Policy</a>
+                <span class="separator">•</span>
+                <a href="/terms">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+document.getElementById('current-year').textContent = new Date().getFullYear();
+
+document.getElementById('newsletter-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const email = document.getElementById('newsletter-email').value;
+    // Add your newsletter subscription logic here
+    this.reset();
+});
+</script> 

@@ -1,0 +1,75 @@
+# LARQ Website Robots.txt
+# Updated: 2024-03-15
+
+User-agent: *
+Allow: /
+Allow: /product
+Allow: /technology
+Allow: /our-story
+Allow: /*.html$
+Allow: /*.css$
+Allow: /*.js$
+Allow: /images/
+Allow: /styles/
+Allow: /scripts/
+
+# Optimize crawl rate
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://larq.com/sitemap.xml
+
+# Prevent duplicate content
+Disallow: /*?*
+Disallow: /*&*
+Disallow: /*/print/
+Disallow: /temp/
+Disallow: /backup/
+Disallow: /admin/
+Disallow: /dev/
+Disallow: /test/
+
+# Media files - allow specific image formats
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.png$
+Allow: /*.svg$
+Allow: /*.webp$
+
+# Block sensitive directories
+Disallow: /cgi-bin/
+Disallow: /includes/
+Disallow: /private/
+Disallow: /cache/
+Disallow: /logs/
+Disallow: /tmp/
+
+# Specific bot rules
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.png$
+Allow: /*.webp$
+Allow: /*.svg$
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+# Block bad bots
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: PetalBot
+Disallow: / 
